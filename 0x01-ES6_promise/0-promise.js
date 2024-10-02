@@ -3,4 +3,3 @@ function getResponseFromAPI() {
         return true
     });
 }
-export default getResponseFromAPI;
