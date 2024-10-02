@@ -1,4 +1,7 @@
-import getResponseFromAPI from "./0-promise.js";
+function getResponseFromAPI() {
+    return new Promise((resolve, ) => {
+        return true
+    });
+}
 
-const response = getResponseFromAPI();
-console.log(response instanceof Promise);
+export default getResponseFromAPI;
