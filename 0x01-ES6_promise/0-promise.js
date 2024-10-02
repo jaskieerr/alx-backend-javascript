@@ -1,5 +1,7 @@
 function getResponseFromAPI() {
     return new Promise((resolve, ) => {
-        return true
+        resolve('allgud')
     });
 }
+
+export default getResponseFromAPI;
